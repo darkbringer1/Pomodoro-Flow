@@ -11,6 +11,7 @@
 		D884B88226D3ABDD00744E35 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D884B88126D3ABDD00744E35 /* ContentView.swift */; };
 		D884B88426D3ABDF00744E35 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D884B88326D3ABDF00744E35 /* Assets.xcassets */; };
 		D884B88726D3ABDF00744E35 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D884B88626D3ABDF00744E35 /* Preview Assets.xcassets */; };
+		D884B89326D3B93B00744E35 /* CountdownView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D884B89226D3B93B00744E35 /* CountdownView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +21,7 @@
 		D884B88326D3ABDF00744E35 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D884B88626D3ABDF00744E35 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		D884B88826D3ABDF00744E35 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D884B89226D3B93B00744E35 /* CountdownView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CountdownView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 			children = (
 				D884B87F26D3ABDD00744E35 /* Pomodoro_FlowApp.swift */,
 				D884B88126D3ABDD00744E35 /* ContentView.swift */,
+				D884B89126D3B92F00744E35 /* Views */,
 				D884B88326D3ABDF00744E35 /* Assets.xcassets */,
 				D884B88826D3ABDF00744E35 /* Info.plist */,
 				D884B88526D3ABDF00744E35 /* Preview Content */,
@@ -67,6 +70,14 @@
 				D884B88626D3ABDF00744E35 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		D884B89126D3B92F00744E35 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				D884B89226D3B93B00744E35 /* CountdownView.swift */,
+			);
+			name = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,6 +149,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D884B89326D3B93B00744E35 /* CountdownView.swift in Sources */,
 				D884B88226D3ABDD00744E35 /* ContentView.swift in Sources */,
 				D884B88026D3ABDD00744E35 /* Pomodoro_FlowApp.swift in Sources */,
 			);
